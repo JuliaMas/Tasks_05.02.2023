@@ -24,10 +24,10 @@ void PrintMatrix(double[,] matrix)
     }
     Console.WriteLine();
 }
-Console.Write("Введите кол-во строк: ");
-int n = int.Parse(Console.ReadLine()!);
 Console.Write("Введите кол-во столбцов: ");
 int m = int.Parse(Console.ReadLine()!);
+Console.Write("Введите кол-во строк: ");
+int n = int.Parse(Console.ReadLine()!);
 PrintMatrix(CreateMatrix(m,n));
 
 
